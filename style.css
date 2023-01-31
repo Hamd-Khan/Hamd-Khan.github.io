@@ -1,0 +1,226 @@
+
+
+a{
+    color: purple;
+    text-decoration:none;
+    
+}
+
+#rule-nav{
+    border-top:2px solid purple
+}
+.nav-list a {
+    text-decoration: none;
+    transition: border-bottom 0.2s ease-in-out;
+  }
+  
+.nav-list a:hover {
+    border-bottom: 1px solid black;
+    color: purple;
+
+  }
+
+.nav-list {
+    display:flex;
+    flex:1;
+    justify-content:space-evenly;
+    list-style:none;
+   
+}
+
+.navigation a{
+    color: gray;
+    margin:-50px;
+    padding:-50px;
+}
+
+
+
+/* headers*/
+.header-3-trait{
+    color: gray;
+}
+
+.main{
+    display:flex;
+    margin-top:30px;
+    padding-right:100px;
+    padding-left:30px;
+
+}
+.left-side{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    border-right:1px solid lightgrey;
+    height:600px;
+    margin-right:35px;
+    margin-top:20px;
+
+ 
+
+   
+}
+.right-side{
+    margin-right:-50px;
+    /* border-right:1px solid lightgrey; */
+}
+.hamd-pic{
+    margin:-14px;
+    margin-bottom: -30px;
+    /* margin-right:6px; */
+   
+}
+.header-1-name
+{
+    margin-bottom: -24px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.position
+{
+    margin:-6px;
+}
+.email-index{
+    color: blueviolet;
+    margin:-22px;
+}
+
+.actual-hamd{
+    border-radius:50% 50%;
+    border:5px solid lightgray;
+}
+
+
+.checkbox-cont{
+    display:grid;
+    grid-template-columns:20px 100px 20px 100px;
+
+}
+
+
+.Education-values-cont {
+    display: flex;
+    margin-bottom: 110px;
+}
+
+.Degree-cont {
+    width: 70%;
+    margin-right: 80px;
+   
+}
+
+
+.inst-cont {
+    width: 30%;
+    
+}
+.Degree {
+    margin-bottom:-15px;
+}
+
+.highschool{
+    margin-bottom:-15px;
+}
+
+.diploma{
+    margin-bottom:-15px;
+
+}
+.Credentials-ava{
+    color:grey;
+}
+
+.institution{
+    margin-bottom:-15px;
+}
+
+.Experiance-values-cont {
+    display: flex;
+    margin-bottom: 110px;
+}
+
+.exp-cont {
+    width: 70%;
+    margin-right: 80px;
+   
+}
+.experiance {
+    margin-bottom:-15px;
+}
+
+.interest-list{
+    font-size: 20px;
+    margin-top:50px;
+}
+
+.language-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .language-bar {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  progress {
+    height: 20px;
+    width: 200%;
+    border-radius: 50px;
+  }
+  
+  progress::-webkit-progress-bar {
+    
+    border-radius: 50px;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color:purple;
+    border-radius: 50px;
+  }
+  
+  .horizontal-line-media{
+    height: 0px;
+    width: 0px;
+  }
+  @media only screen and (max-width: 700px) {
+    * {
+      box-sizing: border-box;
+    }
+    .horizontal-line-media{
+        height:2px;
+        width:100%;
+    }
+    .main {
+      display: flex;
+      flex-direction: column;
+    }
+    .left-side{
+        border-right:none;
+        margin-bottom:-300px;
+        margin-left:65px;
+    }
+    .header-3-trait{
+       text-align: center;
+    }
+    .language-container{
+        align-items: flex-start;
+    } 
+   
+  }
+
+  .footer{
+    text-align: center;
+    margin-top:30px;
+  }
+
+
+
+
